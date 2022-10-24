@@ -9,7 +9,6 @@ It contains only numerical input variables which are the result of a PCA transfo
 
 # Code
 
-Here, I use K-Nearest Neighbors, Kernel SVM (Support Vector Machine), Random Forest, XGBoost (after XGBoost you can find k-Fold Cross Validation code to apply it if you want to)
-to classify the transaction into normal and abnormal types.
+I use K-Nearest Neighbors, Kernel SVM (Support Vector Machine), Random Forest, XGBoost (after XGBoost you can find k-Fold Cross Validation code to apply it if you want to) to classify the transaction into normal and abnormal types.
 
 I got 99.95% accuracy in our credit card fraud detection. Finally, I found that K-Nearest Neighbors is the winner, getting f1-score = 0.8383
